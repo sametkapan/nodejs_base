@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use((req, res, next) => {
-  console.log("NABER NABER NABER");
+  console.log("NABERRR NABER NABER");
   next();
 });
 
